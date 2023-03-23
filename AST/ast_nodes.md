@@ -1,21 +1,19 @@
+ ## DECLARATION_NODE_LIST
+    VariableDeclaration
+    FunctionDeclaration
 
+ ## ITERATION_NODE_LIST 
+   DoWhileStatement          
+   WhileStatement            
+   ForStatement              
+   ForInStatement            
+   ForOfStatement
 
- DECLARATION_NODE_LIST
-  VariableDeclaration
-  FunctionDeclaration
-
- ITERATION_NODE_LIST 
-  DoWhileStatement          
-  WhileStatement            
-  ForStatement              
-  ForInStatement            
-  ForOfStatement
-
- BREAKABLE_NODE_LIST 
+ ## BREAKABLE_NODE_LIST 
   Block                     
   SwitchStatement
 
- STATEMENT_NODE_LIST       
+ ## STATEMENT_NODE_LIST       
   ITERATION_NODE_LIST             
   BREAKABLE_NODE_LIST             
   ExpressionStatement             
@@ -32,12 +30,12 @@
   InitializeClassMembersStatement 
   InitializeClassStaticElementsStatement
 
- LITERAL_NODE_LIST 
+ ## LITERAL_NODE_LIST 
   RegExpLiteral           
   ObjectLiteral           
   ArrayLiteral
 
- EXPRESSION_NODE_LIST 
+ ## EXPRESSION_NODE_LIST 
   LITERAL_NODE_LIST          
   Assignment                 
   Await                      
@@ -70,5 +68,5 @@
   Yield                      
   YieldStar
 
- FAILURE_NODE_LIST 
-  FailureExpression
+ ## FAILURE_NODE_LIST 
+   FailureExpression
